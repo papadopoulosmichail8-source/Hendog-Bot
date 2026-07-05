@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Hendogs hideout bot",
+        name: "Hendog's hideout bot",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -46,7 +46,7 @@ export const botConfig = {
     deleteCommands: false,
 
     // Optional server ID used for testing slash commands quickly.
-    testGuildId:process.env.TEST_GUILD_ID,1393345166462550057
+    testGuildId:process.env.TEST_GUILD_ID,
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
