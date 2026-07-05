@@ -46,7 +46,7 @@ export const botConfig = {
     deleteCommands: false,
 
     // Optional server ID used for testing slash commands quickly.
-    testGuildId:1393345166462550057 process.env.TEST_GUILD_ID,
+    testGuildId:process.env.TEST_GUILD_ID,1393345166462550057
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
